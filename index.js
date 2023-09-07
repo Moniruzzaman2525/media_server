@@ -22,7 +22,7 @@ app.use("/api/v1/media/", mediaRoutes);
 app.use("/api/v1/auth/", userRoutes);
 // Routes
 app.get("/", (req, res) => {
-  return res.send("Sunshine Server Running...!!");
+  return res.send("Server Running...!!");
 });
 
 
